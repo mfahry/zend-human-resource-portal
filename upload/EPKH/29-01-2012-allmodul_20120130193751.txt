@@ -1,0 +1,71 @@
+aset
+1.view detail aset formnya jd kebawah [ok]
+2.form pencarian pada mutasi aset, untuk lokasi belum digabungkan di satu combo box [ok]
+3.laporan aset, blm ada tanggal, dan informasi depresiasi tiap aset [ok]
+
+tiket
+1. input status dinonaktifkan, dafaultnya open [ok]
+2. upload cuma, gambar, harusnya, gambar dan dokumen bisa [ok]
+3. form pendaftaran workforce ke workgroup tertentu [ok]
+
+kegiatan
+1. lihat laporan, penanggung jawab ga sesuai dgn di grid [ok]
+2. di kelender, range waktunya blm sesuai 
+
+penugasan
+1. daftar penugasan, kolom PIC, isinya dari pemberi tugas [ok]
+2. label status konfirmasi, jadi status penugsan [ok]
+3. pencarian  berdasarkan tujuan blm jalan [ok]
+4. input laporan selesai tugas [ok]
+
+Halaman awal:
+------------------
+LAPORAN PENUGASAN
+[NAMA_TUGAS]
+
+|||
+
+Oleh: 
+[NAMA_PETUGAS]
+SK. [NO.SK]
+
+
+KEMENTERIAN SOSIAL REPUBLIK INDONESIA
+[NAMA ORG PEMBERI TUGAS]
+[ALAMAT LENGKAP ORG PEMBERI TUGAS]
+[Bulan][Tahun] (dari sysdate)
+------------------
+
+Halaman Akhir:
+-------------------
+
+[LOKASI SEKRETARIAT],[DD MONTH YYYY (SYSDATE)]
+[NAMA_ORG_PEMBERI_TUGAS],
+
+
+[PEMBERI_TUGAS]
+---------------
+NIP.[NIP]
+
+
+
+5. rincian biaya perjalanan dinas ------> [ok]
+
+kepegawaian
+1. input evaluator untuk tiap komponen ujian
+2. filter pencarian pegawai, masih harus input semua filter [ok]
+3. penempatan saat sk, sekretaria ga muncul semua [ok]
+4. simpan blm otomatis close pada form sk [ok]
+5. peng-sk-an, blm simpan calon sebagai pegawai [ok]
+6. ubah di daftar pegawai error [ok]
+7. mutasi, jadi menghapus daftar pegawai [ok]
+8. pencarian daftar pegawai, knp ga berdasarkan sekretariat 
+9. download laporan absensi kosong ----> harus diberi alert untuk memilih sekretariat
+10.daftar pegawai dengan daftar pegawai di penggajian ga sama  [ok]
+11. laporan absensi bulanan per sekretariat, hasilnya ga sesuai filter [ok]
+12. laporan absensi perbulan [ok]
+
+
+admin/param
+1. komponen gaji, data satuan, disini gridnya masuk ke kolom keterangan, tlg disesuaikan [ok]   ----> pas editnya, ini masih tetep ke kolom keterngan kesimpannya
+2. daftar pengelola tiket/workforce, digridnya, label no sudah diganti dgn SK Pegawai, tapi masih terisi emp_id, harusnya yg ditampilkan dari emp_code  [ok]

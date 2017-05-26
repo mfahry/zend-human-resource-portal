@@ -1,0 +1,28 @@
+<table id="gridBox2" name="grid2" align="center" width="751">
+		<input name="CalendarIDperiod" type="hidden" value="1<?php echo $calendar_id;?>" />
+        <tr>
+			<td width="1"> </td>
+			<td width="55" align="center"><b>Prioritas</b></td>
+			<td width="400" align="center"><b>Task</b></td>
+            <td width="75" align="center"><b>Status (%)</b></td>
+			<td width="110" align="center"><b>Target</b></td> 
+			<td width="110" align="center"><b>Date</b></td> 
+		</tr>
+       
+		<?php 
+		if(count($tasklist)){
+			foreach($tasklist as $data2){
+				if($data2->STATUS < 100){
+					echo '<tr>';
+					echo '	<td style="color:transparent;">'.$data2->TASK_ID.'</td>';
+					echo '	<td align="center">'.$data2->PRIORITY_ID.'</td>';
+					echo '	<td align="left">'.$data2->TASK.'</td>';
+					echo '	<td align="center">'.$data2->STATUS.'</td>';
+					echo '	<td align="center">'.$data2->TARGET.'</td>';						
+					echo '	<td align="center">'.$data2->UPDATE_DTM.'</td>';						
+					echo '</tr>';
+				}
+			}
+		}
+		?>
+	</table>

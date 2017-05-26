@@ -1,0 +1,68 @@
+
+.containerSlider, .title_knowledge{
+	*color:white;
+	*margin-top:30px;
+	*width:100%;
+	overflow:hidden;
+	
+	background:none #F8F8F8;
+	padding: 5px;
+	border:1px solid #E1E1E1;
+	/*-moz-border-radius:12px;
+	-khtml-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius:12px; */
+}
+.title_knowledge{
+	*width:140px;
+	padding:5px;
+	border:none;
+	*height:55px;
+	
+}
+.knowledge_dtm{
+	color:#666;
+	font-size:10px;
+}
+#slider{
+	height:122px;
+}
+.product{
+	width:350px;
+	height:100px;
+	background:url(includes/JQuery/images/slider.slick/product_bg.png) repeat-x;
+	padding:10px;
+	margin-top: 0 !important;
+	float:left;
+	border:1px solid #E1E1E1;
+	-moz-border-radius:12px;
+	-khtml-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius:12px;
+}
+
+.product .thumb{
+	float:left;
+	*width:128px;
+	*height:128px;
+	padding:0 10px 5px;
+	*margin-top:-15px;
+}
+ 
+
+.product .title_knowledge{
+	*font-size:16px;
+	*font-weight:bold;
+	text-align:justify;
+}
+
+/*a, a:visited {
+	color:#00BBFF;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}*/
+ 
